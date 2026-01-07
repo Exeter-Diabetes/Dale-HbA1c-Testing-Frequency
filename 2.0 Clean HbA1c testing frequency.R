@@ -27,7 +27,7 @@ convert_int_to_numeric <- function(data) {
 
 #Script for all Qc steps that need to be included:
 cprdenvname <- "CPRD_diabetes_data"
-yaml <- "C:/Users/dhand/.ssh/.aurum.yaml"
+yaml <- ""
 
 #Open the CPRD data
 cprd <- CPRDData$new(cprdEnv = cprdenvname, cprdConf = yaml)
