@@ -18,4 +18,6 @@ There are four main scripts which comprise this project:
 
 - **2.0 clean_testing_frequency.R**: This script adds the main testing frequency variable to the main table, and harmonises all data sources used in the manuscript into a single long-format table which is model ready.
 
-- 3.0
+- **3.0 generate_CPMMEM_models.R**: This scripts generates the Conway-Maxwell-Poisson Mixed effects models on HbA1c testing over the first ten years of diagnosis to determine the effect of pre-existing and incident depression on HbA1c testing frequency. This script also adds the interval variable to account for individuals who are censored mid-way through a year.
+
+- **4.0 - time_to_event_models.R**: This script models the various time-to-event analyses we perform in the manuscript. First, we determine the effect of pre-existing and incident depression on all-cause mortality. Next, we determine the effect of HbA1c testing frequency on mortality. Finally, we adjust the model looking at the effect of depression on all-cause mortality for HbA1c testing frequency and look at the change in Hazard ratio. This script also includes all sensitivity analyses performed in the manuscript, including the Therneau-Grambsch tests to determine violation of the proportional hazards assumptions and the subsequent time-stratified cox models and relevant plots. 
