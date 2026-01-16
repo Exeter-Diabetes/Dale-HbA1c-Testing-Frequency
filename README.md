@@ -3,6 +3,11 @@
 This is the GitHub to provide the code for the manuscript entitled "Depression increases both glycated haemoglobin testing frequency and risk of all-cause mortality in type 2 diabetes"
 (https://www.medrxiv.org/content/10.1101/2025.10.06.25337242v1).
 
+Briefly, this manuscript aims to: 
+- Determine the effect of depression on HbA1c testing frequency in individuals with type 2 diabetes
+- Determine the effects of depression and HbA1c testing frequency on risk of all-cause mortality
+- Determine whether the increased testing in individuals with depression offsets the increased risk of mortality in individuals with co-morbid t2d and depression.
+
 These scripts are designed to reproduce the dataset as defined in this manuscript, using the CPRD Aurum 2023 December release. Please see the supplementary methods/results of the manuscript
 for all code lists used in these scripts. Alternatively, most of the code lists are also available at: 
 https://github.com/Exeter-Diabetes/CPRD-Codelists
