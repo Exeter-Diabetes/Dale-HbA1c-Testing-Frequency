@@ -14,3 +14,8 @@ https://github.com/Exeter-Diabetes/CPRD-Cohort-scripts
 
 There are four main scripts which comprise this project:
 
+- **1.0 generate_testing_frequency.R**: This script generates the HbA1c testing frequency variable which is used in all further analyses. This variable summarises the number of HbA1c measurements an individual had on each unique date since index per year, and summarises these values into a more friendly table. Where individuals did not have any tests in a year, this value is imputed to be zero.
+
+- **2.0 clean_testing_frequency.R**: This script adds the main testing frequency variable to the main table, and harmonises all data sources used in the manuscript into a single long-format table which is model ready.
+
+- 3.0
